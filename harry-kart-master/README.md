@@ -7,7 +7,7 @@ The horses run the first loop at their base speed but at the end of each loop th
 
 The power-ups/downs are numbers, negative or positive, representing how much the horse speeds up or slows down.
 
-Your task is to compute the top 3 ranking.
+Task is to compute the top 3 ranking.
 
 ## Example 1
 
@@ -102,11 +102,8 @@ Your task is to compute the top 3 ranking.
 | 3rd      | WAIKIKI SILVIO|
 
 ## Implementation
-The assignment has to be implemented as a spring boot application. Here you will find a boilerplate application implemented in both Java and Kotlin, choose whichever of the two you prefer. Feel free to delete the files you don't need.
-We have set the java version to 15, but you are not required to use Java 15. You can in fact set a lower Java version if you prefer, however Java 8 is minimum. Please note that the boilerplate uses the text blocks feature from Java 15 (so you might have to remove that piece of code first).
 
-The input is provided as an XML document (see examples ```/src/main/resources/input_0.xml```, ```/src/main/resources/input_1.xml``` and ```/src/main/resources/input_2.xml```),
-in case you need it we provide the XML schema for it (```/src/main/resources/input.xsd```)
+The input is provided as an XML document (see examples ```/src/main/resources/input_0.xml```, ```/src/main/resources/input_1.xml``` and ```/src/main/resources/input_2.xml```)
 
 The output must be a json document of this form:
 ```json
@@ -119,6 +116,3 @@ The output must be a json document of this form:
 }
 ```
 
-The application we provide has two rest endpoints accepting XML and returning JSON (http://localhost:8080/java/api/play and http://localhost:8080/kotlin/api/play), you can use any of them as entry point.
-
-When you are done, zip the project (without the target folder) and send it back to us. You can leave the .git folder if you want.
